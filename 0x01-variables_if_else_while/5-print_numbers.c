@@ -1,10 +1,25 @@
+
 #include <stdio.h>
+
 /**
- * main - A programme that print a line using the printf funcyion
- * Return: 0 (Success)
+ * main - Entry point
+ * Return: always 0
  */
+
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	int i;
+
+	for (i = 0 ; i < 10 ; i++)
+		printf("%i", i);
+	printf("\n");
 	return (0);
 }
+
+
+
+
+
+
+
+
